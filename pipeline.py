@@ -4,7 +4,7 @@ from data.qdrant_docs import documents
 import ollama
 
 QDRANT_URL = "http://localhost:6333"
-COLLECTION_NAME = "test-base"
+COLLECTION_NAME = "demo-base"
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 
 client = QdrantClient(url=QDRANT_URL)
